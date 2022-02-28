@@ -16,7 +16,7 @@ import predict_intel
 import report_rmse_score
 
 
-DATAROOT = "../data/clarity_data/"  # Root directory where clarity data is stored
+DATAROOT = "/fastdata/acp20glc/clarity_data/clarity_CPC1_data"  # Root directory where clarity data is stored
 
 
 def main(skip_checks=False, run_baseline=False, n_signals=None):
